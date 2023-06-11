@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Texpi Sans', sans-serif;                                           
+    font-size: 80px;
+    margin-top: 0rem;
+    margin-left: 1.4rem;
+}
+
+/* ---------------------------glowing text-----------------------*/
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a00e6, 0 0 40px #0004e6, 0 0 50px #002ae6, 0 0 60px #1700e6, 0 0 70px #2300e6;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 30px #4dff56, 0 0 40px #85ff4d, 0 0 50px #71ff4d, 0 0 60px #4dff6b, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  /* ---------------------------button css---------------------------- */
+
+.x-buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+  .btn1, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn8, .btn9 {
+    font-size: 1.2rem;
+    padding: 2.4rem 2.5rem 2.4rem 2.5rem;
+    margin: 2.5rem  0 2rem 6rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #000000;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  }
+  
+  .btn1:active, .btn2:active, .btn3:active, .btn4:active, .btn5:active, .btn6:active, .btn7:active, .btn8:active, .btn9:active {
+    scale: 0.92;
+  }
+  
+  .btn1:hover{
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn2:hover{
+    background: rgb(78, 2, 8);
+    background: linear-gradient(270deg, rgba(78, 2, 25, 0.681) 0%, rgba(232, 31, 75, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn3:hover{
+    background: rgb(5, 78, 2);
+    background: linear-gradient(270deg, rgba(15, 78, 2, 0.681) 0%, rgba(31, 232, 31, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn4:hover{
+    background: rgb(67, 78, 2);
+    background: linear-gradient(270deg, rgba(73, 78, 2, 0.681) 0%, rgba(219, 232, 31, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn5:hover{
+    background: rgb(2, 78, 68);
+    background: linear-gradient(270deg, rgba(2, 75, 78, 0.681) 0%, rgba(31, 232, 98, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn6:hover{
+    background: rgb(22, 2, 78);
+    background: linear-gradient(270deg, rgba(31, 2, 78, 0.681) 0%, rgba(75, 31, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn7:hover{
+    background: rgb(78, 45, 2);
+    background: linear-gradient(270deg, rgba(78, 48, 2, 0.681) 0%, rgba(232, 168, 31, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn8:hover{
+    background: rgb(104, 3, 3);
+    background: linear-gradient(270deg, rgba(105, 3, 3, 0.681) 0%, rgba(253, 1, 1, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn9:hover{
+    background: rgb(104, 3, 104);
+    background: linear-gradient(270deg, rgba(105, 3, 91, 0.681) 0%, rgba(253, 1, 240, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  /*------------------------------------button text--------------------------------------- */
+  .btn1 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn1 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn2 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn2 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn3 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn3 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn4 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn4 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn5 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn5 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn6 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn6 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn7 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn7 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn8 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn8 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
+
+  .btn9 a{
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+  }
+
+   .btn9 a:hover{
+    color: rgb(4, 4, 38);
+    cursor: pointer;
+  } 
